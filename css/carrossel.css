@@ -19,3 +19,52 @@
 .swiper-pagination-bullet {
   background: var(--vermelho) !important;
 }
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+.card_descricao {
+  display: flex;
+  justify-content: space-between;
+}
+.descricao_imagem {
+  width: 50%;
+  object-fit: contain;
+}
+.descricao_titulo {
+  color: var(--vermelho);
+  font-weight: 700;
+}
+.descricao_subtitulo {
+  color: var(--rosa-bebe);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+.descricao_texto {
+  font-size: 14px;
+}
+.card_botoes {
+  display: flex;
+  justify-content: space-between;
+}
+.botoes {
+  display: flex;
+}
+.botoes img {
+  width: 30px;
+  height: 30px;
+}
+.botoes_item {
+  margin: 0 0.5em;
+}
+.botao_ancora {
+  background-color: var(--vermelho);
+  padding: 1em 2.2em;
+  color: var(--branco);
+  font-weight: 700;
+  text-decoration: none;
+}
