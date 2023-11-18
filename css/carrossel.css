@@ -9,8 +9,11 @@
 }
 .swiper-slide img {
   width: 100%;
+  object-fit: contain;
 }
 .swiper-pagination {
   position: initial;
-  background-color: blueviolet;
+}
+.swiper-pagination-bullet {
+  background: var(--vermelho) !important;
 }
