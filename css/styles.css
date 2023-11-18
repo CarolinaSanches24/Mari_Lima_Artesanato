@@ -1,9 +1,11 @@
 @import url("header.css");
+@import url("banner.css");
 :root {
   --cor-de-fundo: #ebecee;
   --branco: #ffffff;
-  --laranja: #eb9b00;
-  --azul-gradiente: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --vermelho: #c6302c;
+  --rosa-bebe: #da7073;
+  --pink: rgb(188, 22, 74);
   --fonte-principal: "Poppins", sans-serif;
 }
 

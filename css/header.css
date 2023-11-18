@@ -9,7 +9,7 @@
 .cabeçalho_menu-hamburguer {
   width: 24px;
   height: 24px;
-  background-image: url("../img/Menu.svg");
+  background-image: url("../img/menu-aberto.png");
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,6 +17,11 @@
 .container {
   display: flex;
   align-items: center;
+}
+.container_imagem_logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
 .container_imagem {
   padding: 1em;
@@ -39,11 +44,15 @@
   background-color: var(--branco);
 }
 .lista-menu_titulo {
-  color: var(--laranja);
+  color: var(--vermelho);
   font-weight: 700;
 }
+.lista-menu_link:hover {
+  background-color: rgb(188, 22, 74);
+  font-size: 20px;
+}
 .lista-menu_link {
-  background: var(--azul-gradiente);
+  background: var(--rosa-bebe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
