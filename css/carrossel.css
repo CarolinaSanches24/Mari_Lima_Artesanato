@@ -12,7 +12,9 @@
   object-fit: contain;
 }
 .swiper-pagination {
-  position: initial;
+  position: initial !important;
+  background-color: var(--branco) !important;
+  padding: 0.5em 0;
 }
 .swiper-pagination-bullet {
   background: var(--vermelho) !important;
