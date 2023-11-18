@@ -12,6 +12,10 @@
     />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="cabecalho">
@@ -79,5 +83,37 @@
         placeholder="Busque por um produto?"
       />
     </section>
+    <section class="carrossel">
+      <h2 class="carrossel_titulo">Produtos disponíveis</h2>
+
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/bonecas.jpg" alt="Bonecas Mari Artesanato" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/acessorio.jpg"
+              alt="Bonecas acessório arvoré natalina"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/anjo.jpg" alt="Anjo natalino" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
   </body>
 </html>
