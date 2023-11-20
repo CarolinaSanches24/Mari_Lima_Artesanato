@@ -72,3 +72,8 @@
   font-weight: 700;
   text-decoration: none;
 }
+.botao_comprar {
+  padding: 2em;
+  background-color: var(--branco);
+  text-align: center;
+}
