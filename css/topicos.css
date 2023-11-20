@@ -20,5 +20,5 @@
   text-decoration: none;
   color: var(--branco);
   padding: 1em;
-  background-color: var(--amarelo);
+  border: solid 2px var(--branco);
 }

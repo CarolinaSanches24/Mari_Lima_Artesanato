@@ -5,14 +5,16 @@
 @import url("contato.css");
 @import url("redes_sociais.css ");
 @import url("rodape.css");
+@import url("responsive.css");
 :root {
   --cor-de-fundo: #ebecee;
   --branco: #ffffff;
   --vermelho: #c6302c;
   --rosa-bebe: #da7073;
   --pink: rgb(188, 22, 74);
-  --amarelo: #8e2323;
+  --preto: #000000;
   --fonte-principal: "Poppins", sans-serif;
+  --fonte-secundaria: "Playfair Display", serif;
 }
 
 body {

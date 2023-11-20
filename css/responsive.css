@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px) {
+  .container_imagem_logo {
+    width: 50vh;
+    padding: 0.5em;
+  }
+
+  .opcoes {
+    display: flex;
+    text-transform: uppercase;
+  }
+  .opções__item {
+    padding: 0 1em;
+    text-decoration: none;
+    color: var(--preto);
+  }
+  .opcoes :hover {
+    font-size: 18px;
+    color: var(--rosa-bebe);
+  }
+  .container_imagem-transparente {
+    display: none;
+  }
+  .cabeçalho_menu-hamburguer {
+    display: none;
+  }
+}

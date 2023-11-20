@@ -58,3 +58,7 @@
   background-clip: text;
   text-transform: uppercase;
 }
+.nome_loja,
+.opcoes {
+  display: none;
+}
