@@ -34,6 +34,9 @@
   width: 50%;
   object-fit: contain;
 }
+.descricao {
+  padding: 1em;
+}
 .descricao_titulo {
   color: var(--vermelho);
   font-weight: 700;
@@ -45,6 +48,7 @@
   margin: 0.5em 0;
 }
 .descricao_texto {
+  padding: 1em 0;
   font-size: 14px;
 }
 .card_botoes {

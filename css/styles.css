@@ -1,12 +1,14 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topicos.css");
 :root {
   --cor-de-fundo: #ebecee;
   --branco: #ffffff;
   --vermelho: #c6302c;
   --rosa-bebe: #da7073;
   --pink: rgb(188, 22, 74);
+  --amarelo: #8e2323;
   --fonte-principal: "Poppins", sans-serif;
 }
 
@@ -15,8 +17,4 @@ body {
   font-family: var(--fonte-principal);
   font-size: 16px;
   font-weight: 400;
-}
-
-h1 {
-  color: red;
 }
