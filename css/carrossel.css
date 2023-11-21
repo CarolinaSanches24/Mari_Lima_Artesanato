@@ -73,6 +73,10 @@
   font-weight: 700;
   text-decoration: none;
 }
+.botao_ancora:hover {
+  background-color: var(--rosa-bebe);
+  font-size: 12px;
+}
 .botao_comprar {
   margin-top: 1em;
   padding: 2em;

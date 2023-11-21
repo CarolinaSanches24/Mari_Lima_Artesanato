@@ -18,6 +18,9 @@
   display: flex;
   align-items: center;
 }
+.container_texto {
+  display: none;
+}
 .container_imagem_logo {
   width: 80px;
   height: 80px;

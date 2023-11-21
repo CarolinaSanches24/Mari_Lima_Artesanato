@@ -6,7 +6,7 @@
 @import url("redes_sociais.css ");
 @import url("rodape.css");
 @import url("responsive.css");
-
+@import url("responsive-desktop.css");
 :root {
   --branco: #ffffff;
   --vermelho: #c6302c;

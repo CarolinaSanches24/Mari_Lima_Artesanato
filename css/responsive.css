@@ -17,19 +17,29 @@
     font-size: 18px;
     color: var(--rosa-bebe);
   }
-  .container_imagem-transparente {
+  .container_imagem-transparente,
+  .cabeçalho_menu-hamburguer,
+  .opcoes_botao {
     display: none;
   }
-  .cabeçalho_menu-hamburguer {
-    display: none;
+  .container_icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
   }
+  .container_texto {
+    display: block;
+  }
+  .container_texto:hover {
+    color: var(--pink);
+  }
+
   .opcoes_botao:checked ~ .lista-menu {
     display: block;
     width: auto;
   }
-  .opcoes_botao {
-    display: none;
-  }
+
   .banner_titulo {
     font-size: 36px;
   }
