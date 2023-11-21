@@ -82,3 +82,6 @@
   padding: 2em;
   text-align: center;
 }
+.botao_buy {
+  display: none;
+}

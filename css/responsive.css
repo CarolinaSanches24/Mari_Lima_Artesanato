@@ -22,6 +22,103 @@
   .opcoes_botao {
     display: none;
   }
+
+  .container_icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+  }
+  .container_texto {
+    display: block;
+  }
+  .container_texto:hover {
+    color: var(--pink);
+  }
+
+  .opcoes_botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .banner_titulo {
+    font-size: 36px;
+  }
+  .banner_pesquisa {
+    width: 50%;
+  }
+  .banner_pesquisa::placeholder {
+    background-position: 7em;
+  }
+
+  .carrossel_titulo {
+    font-size: 26px;
+  }
+  .carrossel_container {
+    display: flex;
+    margin: 0 8vw 3em 8vw;
+    align-items: center;
+  }
+  .card {
+    margin-left: 20px !important;
+  }
+
+  .topicos_titulo {
+    font-size: 24px;
+  }
+  .topicos_link {
+    font-size: 24px;
+  }
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato_titulo {
+    font-size: 24px;
+  }
+  .contato_email {
+    width: 30%;
+  }
+  .contato_descricao {
+    margin-right: 3em;
+  }
+  .baby {
+    width: 70%;
+  }
+  .botao_comprar {
+    display: none;
+  }
+  .botao_buy {
+    display: block;
+    margin: 0 20em 5em;
+  }
+}
+@media screen and (min-width: 820px) {
+  .container_imagem_logo {
+    width: 50vh;
+    padding: 0.5em;
+  }
+
+  .opcoes {
+    display: flex;
+    text-transform: uppercase;
+  }
+  .opções__item {
+    padding: 0 1em;
+    text-decoration: none;
+    color: var(--preto);
+  }
+  .opcoes :hover {
+    font-size: 18px;
+    color: var(--rosa-bebe);
+  }
+  .container_imagem-transparente,
+  .cabeçalho_menu-hamburguer,
+  .opcoes_botao {
+    display: none;
+  }
+
   .container_icones {
     display: flex;
     justify-content: center;
@@ -52,6 +149,7 @@
   .carrossel_titulo {
     font-size: 26px;
   }
+
   .swiper-pagination {
     margin: 2em 0 3em 0;
   }
