@@ -2,4 +2,7 @@
   .carrossel_container {
     display: flex;
   }
+  .container_texto {
+    display: block;
+  }
 }
