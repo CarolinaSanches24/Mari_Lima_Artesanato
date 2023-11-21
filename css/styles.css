@@ -6,8 +6,8 @@
 @import url("redes_sociais.css ");
 @import url("rodape.css");
 @import url("responsive.css");
+
 :root {
-  --cor-de-fundo: #ebecee;
   --branco: #ffffff;
   --vermelho: #c6302c;
   --rosa-bebe: #da7073;
@@ -18,7 +18,6 @@
 }
 
 body {
-  background-color: var(--cor-de-fundo);
   font-family: var(--fonte-principal);
   font-size: 16px;
   font-weight: 400;

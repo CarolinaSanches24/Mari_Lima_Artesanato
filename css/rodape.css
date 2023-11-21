@@ -3,7 +3,12 @@ hr {
   border: 1px solid var(--rosa-bebe);
 }
 .rodape {
-  background-color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1em;
-  text-align: center;
+}
+
+.redes_sociais_dev img {
+  margin-left: 10px;
 }

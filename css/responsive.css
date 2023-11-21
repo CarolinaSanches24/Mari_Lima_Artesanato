@@ -23,4 +23,56 @@
   .cabeçalho_menu-hamburguer {
     display: none;
   }
+  .opcoes_botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+  .opcoes_botao {
+    display: none;
+  }
+  .banner_titulo {
+    font-size: 36px;
+  }
+  .banner_pesquisa {
+    width: 50%;
+  }
+  .banner_pesquisa::placeholder {
+    background-position: 7em;
+  }
+  .carrossel_titulo {
+    font-size: 26px;
+  }
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+  .swiper {
+    width: 60%;
+  }
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+  .topicos_titulo {
+    font-size: 24px;
+  }
+  .topicos_link {
+    font-size: 24px;
+  }
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato_titulo {
+    font-size: 24px;
+  }
+  .contato_email {
+    width: 30%;
+  }
+  .contato_descricao {
+    margin-right: 3em;
+  }
+  .baby {
+    width: 70%;
+  }
 }

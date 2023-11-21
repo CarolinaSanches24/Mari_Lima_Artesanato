@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop Books Online</title>
+    <title>Mari Lima Artesanatos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,9 +49,26 @@
        
       </div>
       <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
+        <label for="opcoes-menu">
         <li class="opções__item">Categorias</li>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Artesanato</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Natal</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Bonecos</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Baby</a>
+        </li>
+      </ul>
         <li><a href=”#” class="opções__item">Favoritos</a></li>
-        <li><a href=”#” class="opções__item">Meus Pedidos</a></li>
+        <li><a href=”#” class="opções__item">Sobre</a></li>
       </ul>
       <div class="container">
         <a href="#"
@@ -116,6 +133,7 @@
             <img src="./img/9.png" alt="Guirlanda Natalina" />
           </div>
         </div>
+    
       </div>
     <div class="botao_comprar">
         <a href="#" class="botao_ancora">Comprar Agora</a>
@@ -141,7 +159,7 @@
    </div>
  </div>
     </section>
-  <section class="carrossel_guirlandas_baby">
+  <section class="carrossel">
     <h2 class="carrossel_titulo">Guirlandas Baby</h2>
     <div class="swiper">
       <div class="swiper-pagination"></div>
@@ -158,8 +176,9 @@
         <div class="swiper-slide">
           <img src="./img/Guirlanda Bonequinha.jpg" alt="Bota cachepot" />
         </div>
+      
       </div>
-      <div class="card">
+      <div class="card baby">
         <div class="card_descricao">
        <div class="descricao">
          <h3 class="descricao_titulo">Produtos sob Encomenda</h3>
@@ -168,8 +187,9 @@
          </h2>
          <p class="descricao_texto">Feita com Feltro e MicroFibra</p>
        </div>
-       <img src="./img/Guirlanda_Safari.png" alt="Guirlanda Natalina" class="descricao_imagem">
+       <img src="./img/Guirlanda_Safari.png" alt="Guirlanda Baby" class="descricao_imagem">
      </div>
+
      <div class="card_botoes">
       <ul class="botoes">
       <li class="botoes_item"><img src="./img/favorito.png" alt="Favoritar produto"/></li>
@@ -202,8 +222,10 @@
   </section >
 
 <section class="contato">
+  <div class="contato_descricao">
   <h2 class="contato_titulo">Fique por dentro das novidades !</h2>
   <p class="contato_texto">Para mais informações</p>
+</div>
   <input type="email" placeholder="Cadastre seu e-mail" class="contato_email">
 </section>
 <section class="redes_sociais ">
@@ -213,6 +235,10 @@
 <hr/>
 <footer class="rodape">
   <p class=".rodape_direitos">&copy; 2023 Carolina Sanches. Todos os direitos reservados.</p>
+  <div class="redes_sociais_dev">
+   <a href="https://github.com/CarolinaSanches24"><img src="./img/github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/carol-sanches-878391185/"><img src="./img/linkedin.png" alt="LinkedIn"></a>
+  </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
