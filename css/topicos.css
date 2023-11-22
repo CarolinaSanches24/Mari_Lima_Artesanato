@@ -22,3 +22,7 @@
   padding: 1em;
   border: solid 2px var(--branco);
 }
+
+.topicos_link:hover {
+  background-color: var(--rosa-bebe);
+}
