@@ -13,10 +13,10 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .instagram {
-  background-image: url("/img/logo-instagram.png");
+  background-image: url("/Mari_Lima_Artesanato/img/logo-instagram.png");
 }
 .facebook {
-  background-image: url("/img/facebook.png");
+  background-image: url("/Mari_Lima_Artesanato/img/facebook.png");
 }
 .icon:hover {
   transform: scale(1.2);
