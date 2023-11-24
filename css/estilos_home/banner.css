@@ -26,6 +26,6 @@
   font-weight: 400;
   color: var(--branco);
   text-align: center;
-  background: url("../img/Lupa.svg") no-repeat;
+  background: url("/img/Lupa.svg") no-repeat;
   background-position: 1em;
 }
