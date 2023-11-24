@@ -1,8 +1,0 @@
-.redes_sociais {
-  background-color: var(--branco);
-  display: flex;
-  justify-content: center;
-}
-.redes_sociais img {
-  padding: 1em 1em 1em 0;
-}

@@ -1,0 +1,35 @@
+hr {
+  margin: 0;
+  border: 1px solid var(--rosa-bebe);
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.redes_sociais_dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+  margin: 1em 0 1em 1em;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.icone:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.github {
+  background: url("/img/github.png");
+  background-repeat: no-repeat;
+}
+.linkedin {
+  background: url("/img/linkedin.png");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,24 @@
+.redes_sociais {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  margin: 1em 0 1em 1em;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.instagram {
+  background-image: url("/img/logo-instagram.png");
+}
+.facebook {
+  background-image: url("/img/facebook.png");
+}
+.icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
