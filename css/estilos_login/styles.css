@@ -1,7 +1,17 @@
 @import url("../estilos_home/redes_sociais.css");
 @import url("../estilos_home/rodape.css");
+@import url("../estilos_home/header.css");
+@import url("../estilos_home/styles.css");
+
 :root {
   --branco: #ffffff;
+  --vermelho: #c6302c;
+  --rosa-bebe: #da7073;
+  --pink: rgb(188, 22, 74);
+  --rosa-claro: #ffdfdf;
+  --preto: #000000;
+  --fonte-principal: "Poppins", sans-serif;
+  --fonte-secundaria: "Playfair Display", serif;
 }
 body {
   background-color: var(--branco);
