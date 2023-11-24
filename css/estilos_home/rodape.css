@@ -19,6 +19,7 @@ hr {
   height: 34px;
   background-size: cover;
   margin: 1em 0 1em 1em;
+  border-radius: 20%;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .icone:hover {
