@@ -44,10 +44,12 @@
   border: 1px solid var(--cinza);
   background: #fff;
 }
-.senha::placeholder {
-  padding: 1em;
-  background-image: url("/Mari_Lima_Artesanato/img/logo-instagram");
+.view_pass {
+  background-image: url("/Mari_Lima_Artesanato/img/view-pass.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
+
 #btn_entrar {
   background-color: var(--preto);
   color: var(--branco);
