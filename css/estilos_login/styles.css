@@ -2,16 +2,19 @@
 @import url("../estilos_home/rodape.css");
 @import url("../estilos_home/header.css");
 @import url("../estilos_home/styles.css");
-
+@import url("../estilos_login/container-login.css");
 :root {
   --branco: #ffffff;
   --vermelho: #c6302c;
   --rosa-bebe: #da7073;
   --pink: rgb(188, 22, 74);
+  --pink-secundario: #b3093f;
+  --cinza: rgba(3, 3, 3, 0.42);
   --rosa-claro: #ffdfdf;
   --preto: #000000;
   --fonte-principal: "Poppins", sans-serif;
   --fonte-secundaria: "Playfair Display", serif;
+  --font-terciaria: "Kumbh Sans", serif;
 }
 body {
   background-color: var(--branco);
