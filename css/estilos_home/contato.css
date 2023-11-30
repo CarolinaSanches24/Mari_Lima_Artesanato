@@ -27,7 +27,7 @@
 .contato_email::placeholder {
   font-family: var(--fonte-principal);
   color: var(--azul);
-  background: url("../img/email.png");
+  background: url("/Mari_Lima_Artesanato/img/email.png");
   background-repeat: no-repeat;
   padding-left: 3em;
 }

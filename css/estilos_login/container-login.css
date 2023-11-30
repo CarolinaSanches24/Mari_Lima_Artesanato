@@ -18,7 +18,7 @@
   height: 3px;
   border-radius: 1.5px;
   background-color: var(--pink-secundario);
-  margin-left: 200px;
+  margin-left: 180px;
 }
 .container_login {
   background-color: var(--branco);
@@ -38,7 +38,7 @@
   font-weight: 500;
 }
 .inputs_login {
-  width: 65vw;
+  width: 60vw;
   height: 3vh;
   border-radius: 5px;
   border: 1px solid var(--cinza);
@@ -51,7 +51,7 @@
 #btn_entrar {
   background-color: var(--preto);
   color: var(--branco);
-  width: 65vw;
+  width: 60vw;
   height: 4vh;
   margin: 1em;
   border-radius: 22px;
