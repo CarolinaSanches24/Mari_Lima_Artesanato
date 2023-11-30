@@ -1,3 +1,25 @@
+.btn_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.botao {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: var(--fonte-terciaria);
+}
+#btn_logar {
+  font-weight: 500;
+}
+.btn_selecionado {
+  width: 24px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: var(--pink-secundario);
+  margin-left: 200px;
+}
 .container_login {
   background-color: var(--branco);
   border-radius: 15px;
@@ -9,6 +31,12 @@
 .container_login_input {
   margin: 1em;
 }
+.txt-username,
+.txt-pass {
+  font-family: var(--fonte-terciaria);
+  font-size: 14px;
+  font-weight: 500;
+}
 .inputs_login {
   width: 65vw;
   height: 3vh;
@@ -19,4 +47,27 @@
 .senha::placeholder {
   padding: 1em;
   background-image: url("/Mari_Lima_Artesanato/img/logo-instagram");
+}
+#btn_entrar {
+  background-color: var(--preto);
+  color: var(--branco);
+  width: 65vw;
+  height: 4vh;
+  margin: 1em;
+  border-radius: 22px;
+  border: none;
+}
+.txt_senha {
+  display: flex;
+  justify-content: right;
+  font-size: 12px;
+  margin-right: 1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+.login_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
 }
