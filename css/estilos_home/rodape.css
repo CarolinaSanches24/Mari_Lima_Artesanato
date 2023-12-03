@@ -27,10 +27,10 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .github {
-  background: url("/Mari_Lima_Artesanato/img/github.png");
+  background: url("../../img/github.png");
   background-repeat: no-repeat;
 }
 .linkedin {
-  background: url("/Mari_Lima_Artesanato/img/linkedin.png");
+  background: url("../../img/linkedin.png");
   background-repeat: no-repeat;
 }
