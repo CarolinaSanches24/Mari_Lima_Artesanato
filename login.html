@@ -113,37 +113,50 @@
         <button id="btn_logar" class="botao">Login</button>
       </div>
       <div class="login">
-        <hr class="btn_selecionado" />
-        <div class="container_login_input">
-          <label class="txt-username">E-mail ou CPF*</label>
-          <input type="text" class="inputs_login" />
-          <label class="txt-pass">Senha*</label>
-          <input type="password" class="inputs_login view_pass" />
-        </div>
-        <a href="#" class="txt_senha">Esqueci minha senha?</a>
-        <button id="btn_entrar">ENTRAR</button>
-        <div class="login_social">
-          <img src="../../img/icon-google.png" />
-          <img src="../../img/icon-facebook.png" />
-          <img src="../../img/icon-twiiter.png" />
-          <img src="../../img/icon-apple.png" />
-        </div>
+        <form id="form_login" name="form_login">
+          <hr class="btn_selecionado" />
+          <div class="container_login_input">
+            <label class="txt-username">E-mail ou CPF*</label>
+            <input
+              type="text"
+              class="inputs_login"
+              name="email"
+              value="mateus@email.com"
+            />
+            <label class="txt-pass">Senha*</label>
+            <input
+              type="password"
+              class="inputs_login view_pass"
+              name="senha"
+              value="mat123"
+            />
+          </div>
+          <a href="#" class="txt_senha">Esqueci minha senha?</a>
+          <button type="submit" id="btn_entrar">ENTRAR</button>
+          <div class="login_social">
+            <img src="../../img/icon-google.png" />
+            <img src="../../img/icon-facebook.png" />
+            <img src="../../img/icon-twiiter.png" />
+            <img src="../../img/icon-apple.png" />
+          </div>
+        </form>
       </div>
       <div class="cadastrar">
+        <form id="form_cadastrar" name="form_cadastrar">
         <hr class="btn_selecionado_cad" />
         <div class="container_cadastrar_input">
           <label class="txt-nome">Nome Completo*</label>
-          <input type="text" class="inputs_cadastrar" />
+          <input type="text" class="inputs_cadastrar" name="nome" />
           <label class="txt-cpf">CPF*</label>
           <input type="text" class="inputs_cadastrar" />
           <label class="txt-tel">Telefone*</label>
           <input type="text" class="inputs_cadastrar" />
           <label class="txt-email">Email*</label>
-          <input type="text" class="inputs_cadastrar" />
+          <input type="text" class="inputs_cadastrar" name="email" />
           <label class="txt-senha">Senha*</label>
-          <input type="password" class="inputs_cadastrar" />
+          <input type="password" class="inputs_cadastrar" name="senha" />
         </div>
-        <button id="btn_cadastro">CADASTRAR</button>
+        <button id="btn_cadastro" type="submit">CADASTRAR</button>
         <div class="linha">
           <hr class="linha1" />
           <p class="ou">OU</p>
@@ -164,6 +177,7 @@
               >Google</a
             >
           </div>
+        </form>
         </div>
         <div class="txt_logar">
           <p class="conta">Tem uma Conta?</p>
@@ -198,5 +212,6 @@
     </footer>
 
     <script src="./js/login.js"></script>
+    <script src="./js/conexao.js"></script>
   </body>
 </html>
