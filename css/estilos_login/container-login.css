@@ -45,7 +45,7 @@
   background: #fff;
 }
 .view_pass {
-  background-image: url("/Mari_Lima_Artesanato/img/view-pass.svg");
+  background-image: url("../../img/view-pass.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
