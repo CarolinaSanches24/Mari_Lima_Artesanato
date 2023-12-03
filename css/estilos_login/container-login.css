@@ -10,8 +10,12 @@
   font-size: 18px;
   font-family: var(--fonte-terciaria);
 }
+#btn_cadastrar {
+  cursor: pointer;
+}
 #btn_logar {
   font-weight: 500;
+  cursor: pointer;
 }
 .btn_selecionado {
   width: 24px;
@@ -58,6 +62,7 @@
   margin: 1em;
   border-radius: 22px;
   border: none;
+  cursor: pointer;
 }
 .txt_senha {
   display: flex;
@@ -72,4 +77,7 @@
   justify-content: center;
   align-items: center;
   margin: 1em;
+}
+.container_cadastro {
+  display: none;
 }

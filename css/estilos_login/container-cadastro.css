@@ -1,0 +1,156 @@
+.container_cadastro {
+  background-color: var(--branco);
+  border-radius: 15px;
+  border: 1px solid var(--pink-secundario);
+  margin: 2em;
+  padding: 1em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn_cadastrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.botao {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: var(--fonte-terciaria);
+}
+#btn_cadastrar {
+  cursor: pointer;
+}
+#btn_logar {
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn_selecionado_cad {
+  width: 24px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: var(--pink-secundario);
+  margin-left: 80px;
+}
+
+.container_cadastrar_input {
+  margin: 1em;
+}
+.txt-nome,
+.txt-senha,
+.txt-email,
+.txt-tel,
+.txt-cpf {
+  font-family: var(--fonte-terciaria);
+  font-size: 14px;
+  font-weight: 500;
+}
+.inputs_cadastrar {
+  width: 60vw;
+  height: 3vh;
+  border-radius: 5px;
+  border: 1px solid var(--cinza);
+  background: #fff;
+}
+
+#btn_cadastro {
+  background-color: var(--preto);
+  color: var(--branco);
+  width: 60vw;
+  height: 4vh;
+  margin: 1em 1em 0 1em;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+}
+.txt_senha {
+  display: flex;
+  justify-content: right;
+  font-size: 12px;
+  margin-right: 1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+.login_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+.container_cadastro {
+  display: none;
+}
+.linha {
+  display: flex;
+  align-items: center;
+  padding: 0 1em 0 1em;
+}
+
+.linha1,
+.linha2 {
+  flex-grow: 1;
+  border: 1px solid var(--gray);
+}
+
+.ou {
+  padding: 0 10px;
+  color: var(--gray);
+}
+.btn_conectar {
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.btn_facebook,
+.btn_google {
+  border: 1px solid var(--gray);
+  width: 200px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-family: "Kumbh Sans", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+}
+.icon_google,
+.icon_facebook {
+  width: 24px;
+  height: 24px;
+  padding: 0.5em;
+}
+.conta {
+  width: 100px;
+  height: 16px;
+  color: rgba(30, 30, 30, 0.76);
+  font-family: "Kumbh Sans", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.link_entrar {
+  color: #b3093f;
+  font-family: "Kumbh Sans", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.txt_logar {
+  margin: 1em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
