@@ -1,9 +1,9 @@
-@import url("../estilos_home/redes_sociais.css");
-@import url("../estilos_home/rodape.css");
-@import url("../estilos_home/header.css");
-@import url("../estilos_home/styles.css");
-@import url("../estilos_login/container-login.css");
-@import url("../estilos_login/container-cadastro.css");
+@import url("../header.css");
+@import url("../rodape.css");
+
+@import url("container-login.css");
+@import url("container-cadastro.css");
+
 :root {
   --branco: #ffffff;
   --vermelho: #c6302c;

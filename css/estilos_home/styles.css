@@ -1,10 +1,10 @@
-@import url("../estilos_home/header.css");
+@import url("../header.css");
 @import url("../estilos_home/banner.css");
 @import url("../estilos_home/carrossel.css");
 @import url("../estilos_home/topicos.css");
 @import url("../estilos_home/contato.css");
 @import url("../estilos_home/redes_sociais.css ");
-@import url("../estilos_home/rodape.css");
+@import url("../rodape.css");
 @import url("../estilos_home/responsive.css");
 
 :root {

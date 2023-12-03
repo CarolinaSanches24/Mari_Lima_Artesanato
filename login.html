@@ -112,59 +112,65 @@
         <button id="btn_cadastrar" class="botao">Cadastre-se</button>
         <button id="btn_logar" class="botao">Login</button>
       </div>
-      <hr class="btn_selecionado" />
-      <div class="container_login_input">
-        <label class="txt-username">E-mail ou CPF*</label>
-        <input type="text" class="inputs_login" />
-        <label class="txt-pass">Senha*</label>
-        <input type="password" class="inputs_login view_pass" />
+      <div class="login">
+        <hr class="btn_selecionado" />
+        <div class="container_login_input">
+          <label class="txt-username">E-mail ou CPF*</label>
+          <input type="text" class="inputs_login" />
+          <label class="txt-pass">Senha*</label>
+          <input type="password" class="inputs_login view_pass" />
+        </div>
+        <a href="#" class="txt_senha">Esqueci minha senha?</a>
+        <button id="btn_entrar">ENTRAR</button>
+        <div class="login_social">
+          <img src="../../img/icon-google.png" />
+          <img src="../../img/icon-facebook.png" />
+          <img src="../../img/icon-twiiter.png" />
+          <img src="../../img/icon-apple.png" />
+        </div>
       </div>
-      <a href="#" class="txt_senha">Esqueci minha senha?</a>
-      <button id="btn_entrar">ENTRAR</button>
-      <div class="login_social">
-        <img src="../../img/icon-google.png" />
-        <img src="../../img/icon-facebook.png" />
-        <img src="../../img/icon-twiiter.png" />
-        <img src="../../img/icon-apple.png" />
+      <div class="cadastrar">
+        <hr class="btn_selecionado_cad" />
+        <div class="container_cadastrar_input">
+          <label class="txt-nome">Nome Completo*</label>
+          <input type="text" class="inputs_cadastrar" />
+          <label class="txt-cpf">CPF*</label>
+          <input type="text" class="inputs_cadastrar" />
+          <label class="txt-tel">Telefone*</label>
+          <input type="text" class="inputs_cadastrar" />
+          <label class="txt-email">Email*</label>
+          <input type="text" class="inputs_cadastrar" />
+          <label class="txt-senha">Senha*</label>
+          <input type="password" class="inputs_cadastrar" />
+        </div>
+        <button id="btn_cadastro">CADASTRAR</button>
+        <div class="linha">
+          <hr class="linha1" />
+          <p class="ou">OU</p>
+          <hr class="linha2" />
+        </div>
+        <div class="btn_conectar">
+          <div class="btn_facebook">
+            <img class="icon_facebook" src="../../img/icon_facebook.png" /><a
+              href="#"
+              class="link"
+              >Facebook</a
+            >
+          </div>
+          <div class="btn_google">
+            <img class="icon_google" src="../../img/icon-google.png" /><a
+              href="#"
+              class="link"
+              >Google</a
+            >
+          </div>
+        </div>
+        <div class="txt_logar">
+          <p class="conta">Tem uma Conta?</p>
+          <a href="#" class="link_entrar">Entre</a>
+        </div>
+        <div class="login_social"></div>
       </div>
-    </section>
-    <section class="container_cadastro">
-      <div class="btn_cadastrar">
-        <button id="btn_cadastrar" class="botao">Cadastre-se</button>
-        <button id="btn_logar" class="botao">Login</button>
-      </div>
-      <hr class="btn_selecionado_cad" />
-      <div class="container_cadastrar_input">
-        <label class="txt-nome">Nome Completo*</label>
-        <input type="text" class="inputs_cadastrar" />
-        <label class="txt-cpf">CPF*</label>
-        <input type="text" class="inputs_cadastrar" />
-        <label class="txt-tel">Telefone*</label>
-        <input type="text" class="inputs_cadastrar" />
-        <label class="txt-email">Email*</label>
-        <input type="text" class="inputs_cadastrar" />
-        <label class="txt-senha">Senha*</label>
-        <input type="password" class="inputs_cadastrar" />
-      </div>
-      <button id="btn_cadastro">CADASTRAR</button>
-      <div class="linha">
-      <hr class="linha1">
-      <p class="ou">OU</p>
-      <hr class="linha2">
-    </div>
-    <div class="btn_conectar">
-      <div class="btn_facebook">
-        <img class="icon_facebook" src="../../img/icon_facebook.png"><a href="#" class="link">Facebook</a>
-    </div>
-    <div class="btn_google">
-      <img class="icon_google" src="../../img/icon-google.png"><a href="#" class="link">Google</a>
-  </div>
-    </div>
-    <div class="txt_logar">
-    <p class="conta">Tem uma Conta?</p><a href="#" class="link_entrar">Entre</a>
-  </div>
-      <div class="login_social">
-      
     </section>
 
     <section class="redes_sociais">
@@ -190,31 +196,7 @@
         ></a>
       </div>
     </footer>
-    <script>
-      document
-        .getElementById("btn_cadastrar")
-        .addEventListener("click", function () {
-          const containerLogin = document.querySelector(".container_login");
-          containerLogin.style.display = "none";
-          const containerCadastro = document.querySelector(
-            ".container_cadastro"
-          );
-          containerCadastro.style.display = "block";
-        });
-        document
-        .getElementById("btn_logar")
-        .addEventListener("click", function () {
-          const containerLogin = document.querySelector(
-            ".container_login"
-          );
-          alert("ok");
-          containerCadastro.style.display = "block";
-        });
-        const containerCadastro = document.querySelector(
-            ".container_cadastro"
-          );
-          containerCadastro.style.display = "none";
-       
-    </script>
+
+    <script src="./js/login.js"></script>
   </body>
 </html>
