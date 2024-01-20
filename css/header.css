@@ -45,6 +45,7 @@
 .lista-menu_item {
   padding: 1em;
   background-color: var(--branco);
+  text-transform: uppercase;
 }
 .lista-menu_titulo {
   color: var(--vermelho);
